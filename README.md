@@ -34,7 +34,7 @@ The workflow is as follows:
 3.  **Dimensionality Reduction**: PCA is applied to reduce the feature vectors, retaining 95-99% of the variance while removing redundancy and noise.
 4.  **Classification**: A Support Vector Machine (SVM) with an RBF kernel, optimized using GridSearchCV, performs the final binary classification (Tumor / No Tumor).
 
-![Proposed Methodology Flowchart](assets/pipeline_flowchart.png)
+![Proposed Methodology Flowchart](assets/fig1.png)
 *Figure 1: The proposed hybrid methodology pipeline.*
 
 ## Performance & Results
@@ -87,5 +87,5 @@ Code
   journal={Preprint submitted to Elsevier},
   year={2025}
 }
-License:
+License
 This project is licensed under the MIT License. See the LICENSE file for details.
