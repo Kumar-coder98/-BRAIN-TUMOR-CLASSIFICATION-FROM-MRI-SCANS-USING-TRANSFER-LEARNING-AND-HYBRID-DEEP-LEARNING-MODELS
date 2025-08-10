@@ -73,19 +73,3 @@ You can install all dependencies using pip:
 ```bash
 pip install torch torchvision scikit-learn transformers timm tqdm pillow matplotlib
 
-Future Work
-Multiclass Classification: Extend the framework to distinguish between different tumor types (e.g., glioma, meningioma, pituitary).
-Model Explainability: Integrate advanced visualization techniques like Grad-CAM to improve clinical trust.
-Real-time Deployment: Investigate the feasibility of deploying the model as a real-time diagnostic tool.
-Citation
-If you use this work in your research, please cite our paper:
-code
-Code
-@article{kumar2025braintumor,
-  title={Brain Tumor Classification from MRI Scans Using Transfer Learning and Hybrid Deep Learning Models},
-  author={L K Suresh Kumar and Revanth Kumar Bellamkonda and Ravi Uyyala},
-  journal={Preprint submitted to Elsevier},
-  year={2025}
-}
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
